@@ -1,0 +1,70 @@
+html {
+    box-sizing: border-box;
+    font-size: 10px;
+    background: black;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+  }
+  
+  h1 {
+    color: white;
+    font-size: 8rem;
+  }
+
+  .display__time-left {
+    font-weight: 100;
+    font-size: 16rem;
+    margin: 0;
+    color: white;
+  }
+  
+  .timer {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  
+  .timer__controls {
+    display: flex;
+  }
+  
+  .timer__controls > * {
+    flex: 1;
+  }
+  
+  .timer__button {
+    background: none;
+    border: 0;
+    cursor: pointer;
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+    background: rgba(0,0,0,0.1);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    border-right: 2px solid rgb(255, 255, 255);
+    padding: 1rem;
+    font-family: 'Inconsolata', monospace;
+  }
+  
+  .timer__button:hover,
+  .timer__button:focus {
+    background: rgba(147, 147, 147, 0.2);
+    outline: 0;
+  }
+  
+  .display {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  

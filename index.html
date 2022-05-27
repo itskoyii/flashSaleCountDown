@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Countdown Timer</title>
+  <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="timer">
+    <div class="timer__controls">
+      <button data-time="86400" class="timer__button">⚡ Sales Ends In 24 Hrs ⚡</button>
+      <button data-time="43200" class="timer__button">🔥 Sales Ends In 12 Hrs 🔥</button>
+      <button data-time="21600" class="timer__button">❤️‍🔥 Sales Ends In 6 Hrs ❤️‍🔥</button>
+      <button data-time="10800" class="timer__button">🚀  Sales Ends In 3 Hrs 🚀 </button>
+    </div>
+    <div class="display">
+      <div class="header">
+        <h1>Sales Ends In</h1>
+      </div>
+      <h1 class="display__time-left">00: 00 : 00</h1>
+      <p class="display__end-time"></p>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
